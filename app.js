@@ -124,9 +124,6 @@ function endround(){
     } 
 }
 
-
-
-
 function attack(mode){
     let maxdamage;
     let logevent;
