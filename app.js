@@ -18,8 +18,6 @@ let currentMonsterHealth=chosenMaxLife;
 let bonusHealth=true;
 adjustHealthBars(chosenMaxLife);
 let battlelog=[];
-
-
 function writeToLog(event,value,monsterHealth,playerHealth){
     let logentry;
     if(event===Log_Event_player_Attack) {
